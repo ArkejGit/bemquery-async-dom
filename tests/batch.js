@@ -22,7 +22,7 @@ describe( 'Batch#add', () => {
 	} );
 
 	it( 'requires function as a 2. parameter', () => {
-		cosnt batch = new Batch();
+		const batch = new Batch();
 
 		expect( () => {
 			batch.add( 'read', 1 );
